@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>首页</title>
+	<style type="text/css">
+	a.nav{
+		text-decoration: none;
+		color: white;
+	}
+	a.nav:hover{
+		font-size: 20px;
+	}
+	div.banner{
+		width: 1000px;
+		height: 250px;
+		background-image: url(images/banner.jpg);
+		margin: 0 auto;
+	}
+	div.nav_conment{
+		float: left;
+		text-align: center;
+	}
+	div.nav_search{
+		float: right;
+		position: relative;
+		top: 10px;
+	}
+	li.nav_conment{
+		font-weight: bold;
+		font-size: 16px;
+		color: orange;
+		display: inline-block;
+		width: 120px;
+		margin-left: 10px;
+	}
+	li.nav_conment1{
+		font-weight: bold;
+		font-size: 7px;
+		color: orange;
+		display: inline-block;
+	}
+	.nav_search{
+		display: inline-block;
+	}
+	#content{
+		height: 800px;
+		width: 1200px;
+	}
+	.news{
+		margin-left: 170px;
+		margin-top: 50px;
+		height: 500px;
+		width: 600px;
+		float: left;
+	}
+	span.news_list{
+		color: pink;
+		font-size: 20px;
+		float: right;
+	}
+	li.news_list{
+		color: pink;
+	}
+	.one{
+		color: gray;
+		font-size: 20px;
+		font-family: "微软黑体";
+		text-decoration: none;
+	}
+	div.menu{
+		float: left;
+		margin-top: 50px;
+		width: 350px;
+		height: 400px;
+		margin: o;
+		text-align: center;
+	}
+	div.lunbo_title{
+		width: 100px;
+		height: 20px;
+		position: relative;
+		top: 20px;
+		left: 150px;
+	}
+	#lunbo ul li:not(:first-child){
+        display: none;
+    }
+    li.lunbo{
+        list-style: none;
+    }
+    ul.lunbo{
+        position: relative;
+        top: 30px;
+        left: 2px;
+    }
+    p.lunbo{
+        margin: 0;
+        text-align: center;
+    }
+    #lunbo{
+        width: 300px;
+        height: 380px;
+        padding: 0px;
+    }
+	.link{
+		margin-left: 170px;
+	}
+	ul.fm{
+		width: 1000px;
+		text-align: center;
+		margin: 0 auto;
+	}
+	li.fm{
+		float: left;
+		padding: 30px;
+		list-style: none;
+	}
+	a.fm{
+		color: gray;
+		font-size: 5px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	#footer{
+		width: 1000px;
+		height: 200px;
+		margin-left: 150px;
+		clear: both;
+	}
+	.footer{
+		font-size: 10px;
+		line-height: 1em;
+		letter-spacing: 1px;
+		font-family: "微软雅黑";
+		text-align: center;
+		background-image: url(images/防弹13.jpg);
+	}
+	</style>
+</head>
+<body>
+	<div id="header">
+		<div class="banner">
+			<div id="nav">
+				<div class="nav_conment">
+					<ul class="nav_conment">
+					<li class="nav_conment"><a href="#" class="nav">首页</a></li>
+					<li class="nav_conment1">|</li>
+					<li class="nav_conment"><a href="#" class="nav">成员介绍</a></li>
+					<li class="nav_conment1">|</li>
+					<li class="nav_conment"><a href="#" class="nav">获奖记录</a></li>
+					<li class="nav_conment1">|</li>
+					<li class="nav_conment"><a href="#" class="nav">专辑</a></li>
+					<li class="nav_conment1">|</li>
+					<li class="nav_conment"><a href="#" class="nav">演艺经历</a></li>	
+				    </ul>
+				</div>
+				<div class="nav_search">
+					<form method="" action="">
+						<input type="text" name="sousuo">
+						<input type="button" name="sousuo" value="搜索">
+					</form>
+				</div>
+	        </div>
+	     </div>
+	</div>
+	<div id="content">
+		<div class="news">
+			<ul>
+			    <img src="images/news1.jpg" class="news1">
+				<li class="news_list"><a href="#" class="one">2017BTS LIVE TRILOGY EPISODE IIIITH...</a><span class="news_list">17/06/01</li>
+				<li class="news_list"><a href="#" class="one">BTS PHOTO COLLECTION公开</a><span class="news_list">17/06/02</span></li>
+				<li class="news_list"><a href="#" class="one">《we don't talk anymore PT.2》公开</a><span class="news_list">17/06/03</span></li>
+				<li class="news_list"><a href="#" class="one">日单《血、泪、汗》成员握手会in东京</a><span class="news_list">17/06/04</span></li>
+				<li class="news_list"><a href="#" class="one">2017BTS LIVE TRILOGY EPISODE IIIITH...</a><span class="news_list">17/06/07</span></li>
+                <li class="news_list"><a href="#" class="one">日单《血、泪、汗》成员握手会in广岛</a><span class="news_list">17/06/08</span></li>
+                <li class="news_list"><a href="#" class="one">家族照公开</a><span class="news_list">17/06/09</span></li>
+                <li class="news_list"><a href="#" class="one">仁川机场入境</a><span class="news_list">17/06/09</span></li>
+                <li class="news_list"><a href="#" class="one">蜜FM 06.13</a><span class="news_list">17/06/12</span></li>
+                <li class="news_list"><a href="#" class="one">2017 BTS HOME PARTY</a><span class="news_list">17/06/13</span></li>
+                <li class="news_list"><a href="#" class="one">防弹少年团出道四周年</a><span class="news_list">17/06/13</span></li>
+                <li class="news_list"><a href="#" class="one">2017 BTTS LIVE TRILOGY EPISODE IIIITH...</a><span class="news_list">17/06/14</span></li>
+                <li class="news_list"><a href="#" class="one">仁川机场出境赴名古屋</a><span class="news_list">17/06/14</span></li>
+                <li class="news_list"><a href="#" class="one">2017BTS LIVE TRILLOGY EPISODE IIIITH...</a><span class="news_list">17/06/15</span></li>
+                <li class="news_list"><a href="#" class="one">日单《血、泪、汗》成员握手会in爱知</a><span class="news_list">17/06/17</span></li>
+                <li class="news_list"><a href="#" class="one">日单《血、泪、汗》成员握手会in东京</a><span class="news_list">17/06/18</span></li>
+                <li class="news_list"><a href="#" class="one">BTS BON VOYGE 2预告</a><span class="news_list">17/06/20</span></li>
+			</ul>
+		</div>
+		<div class="menu">
+			<div class="lunbo_title">
+				<img src="images/menu.jpg">
+			</div>
+		<div id="lunbo">
+			<ul class="lunbo">
+				<li class="lunbo"><img src="images/1.jpg">
+					<p class="lunbo">JUNG KOOK</p>
+				</li>
+				<li class="lunbo"><img src="images/2.jpg">
+					<p class="lunbo">RAP MONSTER</p>
+				</li>
+				<li class="lunbo"><img src="images/3.jpg">
+					<p class="lunbo">V</p>
+				</li>
+				<li class="lunbo"><img src="images/4.jpg">
+					<p class="lunbo">JIMIN</p>
+				</li>
+				<li class="lunbo"><img src="images/5.jpg">
+					<p class="lunbo">J-HOPE</p>
+				</li>
+				<li class="lunbo"><img src="images/6.jpg">
+					<p class="lunbo">SUGA</p>
+				</li>
+				<li class="lunbo"><img src="images/7.jpg">
+					<p class="lunbo">JIN</p>
+				</li>
+			</ul>
+	</div>
+</div>
+		<script type="text/javascript">
+    //因为使用了document，所以js需要放在需要执行的代码下面生效才能生效
+    var li=document.getElementById('lunbo').getElementsByTagName("li");
+    var num=0;
+    var len=li.length;
+
+    setInterval(function(){
+        li[num].style.display="none";
+        num=++num==len?0:num;
+        li[num].style.display="inline-block";
+
+    },3000);//切换时间
+</script>
+		<div class="link">
+			<img src="images/link.jpg" class="link">
+		<ul class="fm">
+			<li class="fm"><img src="images/fm1.jpg">
+				<p><a href="#" target="_blank" class="fm">YOUNG FOREVER</a></p>
+			</li>
+			<li class="fm"><img src="images/fm2.jpg">
+				<p><a href="#" title="" class="fm">SKOOL LUV AFFAIR</a></p>
+			</li>
+			<li class="fm"><img src="images/fm3.jpg">
+				<p><a href="#" title="" class="fm">花样年华pt,2</a></p>
+			</li>
+			<li class="fm"><img src="images/fm4.jpg">
+				<p><a href="#" title="" class="fm">花样年华pt.1</a></p>
+			</li>
+		</ul>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="footer">
+		    <p>第一次做网页，不怎么好看，望见谅。</p>
+		    <p>学校：河北师范大学</p>
+	        <p>学院：软件学院</p>
+	        <p>学生：某某某</p>
+	    </div>
+	</div>
+</body>
+</html>
